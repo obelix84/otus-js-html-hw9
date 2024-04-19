@@ -1,0 +1,11 @@
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid blue;
+}
+
+.header {
+  border: 1px solid red;
+  display: flex;
+  
+}
