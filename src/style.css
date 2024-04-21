@@ -121,7 +121,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
-  max-height: 50vh;
+  max-height: 40vh;
   width: 70%;
 }
 
@@ -132,9 +132,14 @@ body {
   box-sizing: border-box;
   padding-left: 1.5rem;
   width: 30%;
-  max-height: 50vh;
+  max-height: 40vh;
 }
 
 .chat-footer {
   height: 20vh;
+}
+
+.form-user {
+  height: 20vh;
+  width: 100%;
 }
