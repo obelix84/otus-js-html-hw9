@@ -1,0 +1,47 @@
+.carousel {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-list {
+    list-style:none;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-item__active {
+    display: block;
+}
+
+.carousel-item {
+    display:none;
+}
+
+.carousel__img {
+    width:100%
+}
+
+.carousel-control-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-decoration: none;
+    width: 10%;
+}
+
+.carousel-control-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    text-decoration: none;
+    width: 10%;
+}
+
+.carousel-control__img {
+    width:100%;
+}
+
+
+
+
