@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Otus - lesson 9 blog site</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./slider.css" />
   </head>
   <body>
     <header class="header">
@@ -16,9 +17,9 @@
         </div>
         <div class="menu_main">
           <ul class="menu_main__ul">
-            <li><a href="#">Main</a></li>
-            <li><a href="#">Second</a></li>
-            <li><a href="#">Third</a></li>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="blog.html"></a>Blog</li>
+            <li><a href="chat.html">Chat</a></li>
           </ul>
         </div>
       </nav>
@@ -50,6 +51,47 @@
         </article>
       </section>
       <section class="center_column">
+        <div id="carousel" class="carousel">
+          <a
+            class="carousel-control-left"
+            href="#"
+            role="button"
+            data-slide="previous"
+          >
+            <img class="carousel-control__img" src="./img/left.svg" />
+          </a>
+          <a
+            class="carousel-control-right"
+            href="#"
+            role="button"
+            data-slide="next"
+          >
+            <img class="carousel-control__img" src="./img/right.svg" />
+          </a>
+          <ul class="carousel-list">
+            <li class="carousel-item__active" data-current="true">
+              <img
+                class="carousel__img"
+                src="./img/first.svg"
+                alt="первый слайд"
+              />
+            </li>
+            <li class="carousel-item">
+              <img
+                class="carousel__img"
+                src="./img/second.svg"
+                alt="второй слайд"
+              />
+            </li>
+            <li class="carousel-item">
+              <img
+                class="carousel__img"
+                src="./img/third.svg"
+                alt="третий слайд"
+              />
+            </li>
+          </ul>
+        </div>
         <h3><a href="#">Article one</a></h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
@@ -119,5 +161,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./slider.js"></script>
   </body>
 </html>
